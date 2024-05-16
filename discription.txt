@@ -1,0 +1,17 @@
+    # Display initial state
+        role1_front: user's input1
+        role1_back:  refined input 1
+        role2_front: user's input2
+        role2_back: refined input 2
+
+    # Simulate debate and display the state after each round
+        role1_front: refined input 1
+        role1_back:  current respond from gpt client 2
+        role2_front: refined input 2
+        role2_back: current respond from gpt client 1
+
+    # Generate conclusions
+        role1_front: conclusion for role 1
+        role1_back:  full transcript from role 1's perspective
+        role2_front: conclusion for role 2
+        role2_back: full transcript from role 2's perspective
