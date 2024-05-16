@@ -7,9 +7,11 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Retrieve the API key from the environment variable
-api_key = os.getenv("OPENAI_API_KEY")
+api_key_1 = os.getenv("OPENAI_API_KEY_1")
+api_key_2 = os.getenv("OPENAI_API_KEY_2")
 
-client = OpenAI(api_key=api_key)
+client1 = OpenAI(api_key=api_key_1)
+client2 = OpenAI(api_key=api_key_2)
 
 
 def gpt_call(system_prompt, user_input):
